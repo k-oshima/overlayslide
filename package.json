@@ -1,6 +1,6 @@
 {
   "name": "overlay-slide",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "jQuery overlay slide",
   "main": "index.js",
   "license": "MIT"

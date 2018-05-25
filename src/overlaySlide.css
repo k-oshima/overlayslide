@@ -1,0 +1,16 @@
+.olslide_wrap {
+  position: absolute;
+  z-index: -1;
+}
+.olslide_item {
+  /* style here */  
+}
+.olslide_item--current {
+  /* style here */
+}
+.olslide_item--prev {
+  /* style here */
+}
+.olslide_item--next {
+  /* style here */
+}

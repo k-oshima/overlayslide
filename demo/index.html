@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>overlayslide.js - easily creates overlay slider</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="jquery overlay slider plugin" />
+  <!-- Reset Style -->
+  <link rel="stylesheet" href="./demo/reset.css">
+  <!-- overlaySlide Style -->
+  <link rel="stylesheet" href="../src/overlaySlide.css">
+  <!-- overlaySlide Style -->
+  <style>
+    .overlay-1 {
+      height: 600px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .overlay-1 li { width: 100%; }
+    
+    .overlay-1 li img { 
+      display: block;
+      width: 100%; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <ul class="overlay-1">
+      <li>
+        <img src="./demo/sample1.jpg" alt="">
+      </li>
+      <li>
+          <img src="./demo/sample2.jpg" alt="">
+      </li>
+      <li>
+          <img src="./demo/sample3.jpg" alt="">
+      </li>
+      <li>
+          <img src="./demo/sample1.jpg" alt="">
+      </li>
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- overlaySlide -->
+  <script src="../src/overlaySlide.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function () {
+      // Demo 1
+      $('.overlay-1').olslide();
+    });
+  </script>
+</body>
+
+</html>
