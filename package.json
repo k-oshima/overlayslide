@@ -1,7 +1,21 @@
 {
-  "name": "overlay-slide",
+  "name": "overlayslide",
   "version": "1.0.0",
   "description": "jQuery plugin for overlay image slider",
+  "author": "Jinma Yamashita <jinmayamashita@gmail.com>",
+  "keywords": [
+    "slide",
+    "overlay",
+    "jquery"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinmayamashita/overlayslide.git"
+  },
   "main": "src/overlayslide.js",
+  "unpkg": [
+    "dist/overloyslide.min.js",
+    "dist/overloyslide.min.css"
+  ],
   "license": "MIT"
 }
