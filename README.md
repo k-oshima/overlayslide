@@ -1,5 +1,5 @@
-# jQuery Overlay slide
-overlayslide.js - easily creates overlay slider
+# Overlay slide
+overlayslide.js - jQuery plugin for overlay image slider
 
 ## Demo
 
@@ -10,7 +10,4 @@ overlayslide.js - easily creates overlay slider
 $('.wrap').olslide(options)
 ```
 
-## Options
-|name|description|default
-|-|-|-
-|name|description|`value`
+> example image source from [unsplash.com](https://unsplash.com/)
